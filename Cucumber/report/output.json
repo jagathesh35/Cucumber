@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To verify the user login with valid username, password",
+        "description": "",
+        "id": "to-validate-the-login-fuction;to-verify-the-user-login-with-valid-username--password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15851122900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Has to validate the FB login page",
+            "match": {
+              "location": "LoginPageStepDefinition.has_to_validate_the_FB_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 918319100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to enter username,password and click login",
+            "match": {
+              "location": "LoginPageStepDefinition.user_has_to_enter_username_password_and_click_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "farith",
+                  "123373939"
+                ]
+              },
+              {
+                "cells": [
+                  "jagathesh35",
+                  "9898999999"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6653387300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has find error message",
+            "match": {
+              "location": "LoginPageStepDefinition.user_has_find_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login fuction",
+    "description": "",
+    "id": "to-validate-the-login-fuction",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
